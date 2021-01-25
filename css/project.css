@@ -1,0 +1,23 @@
+.project-button {
+    position: absolute;
+    
+    left:0;
+    top: 180px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  
+  .project-button a {
+    
+    padding: 12px 48px;
+    text-align: center;
+    color: white;
+    
+    z-index: 1;
+  }
+  
+  .thumb:hover .project-button {
+    opacity: 1;
+  }
+  
